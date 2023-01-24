@@ -63,7 +63,7 @@ public class TechGlobalLoginPageTest extends TechGlobalBase{
 
     public void validateFormCardResetPasswordLink() {
         techGlobalLoginPage.forgotPasswordLink.click();
-        techGlobalLoginPage.resetPasswordEmailBox.sendKeys("samiryasin@gmail.com");
+        techGlobalLoginPage.resetPasswordEmailBox.sendKeys("s.karim708@gmail.com");
         techGlobalLoginPage.passwordSubmitButton.click();
         Assert.assertEquals(techGlobalLoginPage.conformationMessage.getText(),"A link to reset your password has been sent to your email address.");
 
