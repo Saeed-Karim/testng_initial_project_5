@@ -12,7 +12,7 @@ public class TechGlobalBase {
     WebDriver driver;
     TechGlobalBasePage techGlobalBasePage;
     TechGlobalFrontendTestingHomePage techGlobalFrontendTestingHomePage;
-    TechGlobalLoginFormPage techGlobalLoginFormPage;
+    TechGlobalLoginPage techGlobalLoginPage;
 
 
     @BeforeMethod
